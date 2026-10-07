@@ -1,0 +1,14 @@
+[project]
+name = "servidor-mcp-central-de-salas"
+version = "1.0.0"
+description = "Servidor MCP (Streamable HTTP, spec 2026-07-28) das salas de reuniao da Hill Valley Tech"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp==2.3.0",
+    "pydantic==2.13.5",
+    "starlette==1.7.0",
+    "uvicorn==0.54.0",
+]
+
+[tool.uv]
+package = false
